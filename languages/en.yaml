@@ -1,0 +1,8 @@
+PLUGIN_STRING_REPLACER:
+  ENABLED: "Enabled"
+  REPLACEMENTS: "Custom Replacements"
+  HELP_REPLACEMENTS: "Define up to 10 substitutions of strings."
+  SEARCH: "Search"
+  REPLACE_WITH: "Replace with"
+  HELP_SEARCH: "The string to search for in the page content."
+  HELP_REPLACE: "The HTML or text to insert in place of the found string."

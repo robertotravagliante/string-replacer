@@ -1,0 +1,45 @@
+name: String Replacer
+version: 1.0.0
+description: "Substitute one or more specific strings with HTML, CSS, JS or other raw code, in pages and posts."
+icon: retweet
+author:
+  name: "Roberto Travagliante"
+  email: "roberto@travagliante.com"
+homepage: "https://www.travagliante.com"
+keywords: "grav, plugin, html, string, replace, css, js, substitution"
+bugs: "https://www.travagliante.com/issues"
+readme: "https://www.travagliante.com/README.md"
+
+# Abilita/disabilita il plugin
+enabled: true
+
+# Configurazioni del plugin
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_STRING_REPLACER.ENABLED
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.YES
+        0: PLUGIN_ADMIN.NO
+      validate:
+        type: bool
+
+    replacements:
+      type: list
+      label: PLUGIN_STRING_REPLACER.REPLACEMENTS
+      help: PLUGIN_STRING_REPLACER.HELP_REPLACEMENTS
+      style: vertical
+      fields:
+        .search:
+          type: text
+          label: PLUGIN_STRING_REPLACER.SEARCH
+          help: PLUGIN_STRING_REPLACER.HELP_SEARCH
+        .replace:
+          type: textarea
+          label: PLUGIN_STRING_REPLACER.REPLACE_WITH
+          help: PLUGIN_STRING_REPLACER.HELP_REPLACE
+          rows: 5
