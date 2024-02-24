@@ -12,13 +12,13 @@ The simplest way to install this plugin is via the [Grav Package Manager (GPM)](
 
     bin/gpm install string-replacer
 
-This will install the Shortcode Assets plugin into your `/user/plugins` directory within Grav. Its files can be found under `/your/site/grav/user/plugins/string-replacer`.
+This will install the String Replacer plugin into your `/user/plugins` directory within Grav. Its files can be found under `/your/site/grav/user/plugins/string-replacer`.
 
 ## Manual Installation
 
 To install this plugin, just download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Then, rename the folder to `string-replacer`. You can find these files either on [GitHub](https://github.com/robertotravagliante/string-replacer) or via [GetGrav.org](http://getgrav.org/downloads/plugins).
 
-You should now have all the theme files under
+You should now have all the plugin files under
 
     /your/site/grav/user/plugins/string-replacer
 
